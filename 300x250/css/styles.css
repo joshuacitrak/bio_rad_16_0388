@@ -83,14 +83,14 @@ body {
       background-image: url(../img/p1.png);
       position: absolute;
       top: 20px;
-      left: 0px;
-      width: 108px;
+      left: 58px;
+      width: 181px;
       height: 88px; }
     #bradContainer #bradContent #p2 {
       background-image: url(../img/p2.png);
       position: absolute;
       top: 20px;
-      left: 70px;
+      left: 60px;
       width: 181px;
       height: 85px; }
     #bradContainer #bradContent #t2 {
@@ -101,7 +101,7 @@ body {
       width: 265px;
       height: 57px; }
     #bradContainer #bradContent #p3 {
-      background-image: url(../img/p3.png);
+      background-image: url(../img/p3a.png);
       position: absolute;
       top: 0px;
       left: 0px;
@@ -110,24 +110,24 @@ body {
     #bradContainer #bradContent #sparkle {
       background-image: url(../img/sparkle.png);
       position: absolute;
-      top: 10px;
-      left: 67px;
+      top: 12px;
+      left: 80px;
       width: 40px;
       height: 46px; }
     #bradContainer #bradContent #p3a {
-      background-image: url(../img/p3a.png);
+      background-image: url(../img/p3.png);
       position: absolute;
       top: 0px;
       left: 0px;
-      width: 163px;
+      width: 300px;
       height: 111px; }
     #bradContainer #bradContent #p4 {
       background-image: url(../img/p4.png);
       position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 114px;
-      height: 183px; }
+      top: -20px;
+      left: -170px;
+      width: 300px;
+      height: 208px; }
     #bradContainer #bradContent #t3 {
       background-image: url(../img/t3.png);
       position: absolute;
