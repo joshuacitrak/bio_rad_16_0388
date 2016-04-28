@@ -4,10 +4,10 @@ function startAd(){
     .to("#p1", .25, {opacity:0, ease:Power3.easeOut}, 1.5)
     .from("#p2", .25, {opacity:0, ease:Power3.easeOut}, 1.5)
     .to("#p2", .7, {opacity:0, ease:Power3.easeOut}, 4)
-    .from("#p3a", .7, {x: -150, opacity:0, ease: Elastic.easeOut.config(1, 0.75)}, 4)
-    .to("#p3a", .25, {opacity:0, ease:Power3.easeOut}, 5.5)
-    .from("#p3", .25, {opacity:0, ease:Power3.easeOut}, 5.5)
-    .to("#p3", .7, {opacity:0, ease:Power3.easeOut}, 8.5)
+    .from("#p3", .7, {x: -150, opacity:0, ease: Elastic.easeOut.config(1, 0.75)}, 4)
+    .to("#p3", .25, {opacity:0, ease:Power3.easeOut}, 5.5)
+    .from("#p3a", .25, {opacity:0, ease:Power3.easeOut}, 5.5)
+    .to("#p3a", .7, {opacity:0, ease:Power3.easeOut}, 8.5)
     .from("#p4", .7, {x: -150, opacity:0, ease: Elastic.easeOut.config(1, 0.75)}, 8.5)
     .from("#sparkle", 1.3, {rotation:-360, opacity:0, ease:Power3.easeOut}, 9)
     .to("#p4", .7, {opacity:0, ease:Power3.easeOut}, 11.9)
@@ -29,7 +29,7 @@ function startAd(){
         .from("#p7", .7, {x: -50, opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.75)}, 1.6)
         .to("#p5", .1, {x: -50, opacity:0, ease: Elastic.easeOut.config(1, 0.75)}, 1.6)
         .to("#p7", .7, {x: 250, opacity:0, scale:.8, ease:Power3.easeOut}, 2.4)
-        .to("#p5", .7, {x: 22, opacity:1, scale:1, ease: Elastic.easeOut.config(1, 0.75)}, 2.4);
+        .to("#p5", .7, {x: 0, opacity:1, scale:1, ease: Elastic.easeOut.config(1, 0.75)}, 2.4);
     
     tl.add(ptl, 0);
     tl.add(ttl,0);
