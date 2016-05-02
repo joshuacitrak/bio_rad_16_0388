@@ -6,7 +6,7 @@ var uglify = require('gulp-uglify');
 var webserver = require('gulp-webserver');
 
 gulp.task('images', function(cb) {    
-	gulp.src(['_/components/img/**/*.png','i_/components/img/**/*.jpg','_/components/img/**/*.gif','_/components/img/**/*.jpeg'])
+	gulp.src(['_/components/img/**/*.png','_/components/img/**/*.jpg','_/components/img/**/*.gif','_/components/img/**/*.jpeg'])
 	.pipe(imageop({        optimizationLevel: 5,        progressive: true,        interlaced: true    }))
 	.pipe(gulp.dest('img'))
 	.on('end', cb)

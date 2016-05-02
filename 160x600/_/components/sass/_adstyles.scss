@@ -40,7 +40,7 @@
         }
         
         #p1{
-            background-image: url(../img/p1.png);
+            background-image: url(../img/p1.jpg);
                   position: absolute;
                   top: 81px;
                   left: -20px;
@@ -49,7 +49,7 @@
         }
         
         #p2{
-            background-image: url(../img/p2.png);
+            background-image: url(../img/p2.jpg);
                   position: absolute;
                   top: 81px;
                   left: -20px;
@@ -67,12 +67,12 @@
         }
         
         #p3{
-            background-image: url(../img/p3.png);
+            background-image: url(../img/p3.jpg);
                   position: absolute;
-                  top: -62px;
+                  top: 0px;
                 left: -27px;
                   width: 218px;
-                  height: 172px;
+                  height: 110px;
         }
         
         #sparkle{
@@ -85,11 +85,11 @@
         }
         
         #p3a{
-            background-image: url(../img/p3a.png);
+            background-image: url(../img/p3a.jpg);
                   position: absolute;
                   top: 0px;
-                  left: 0px;
-                  width: 160px;
+                  left: -27px;
+                  width: 218px;
                   height: 110px;
         }
         
@@ -181,17 +181,3 @@
         }
     }
 }
- button {
-      padding: 10px;
-      margin-top: 10px;
-  }
-  
-  button:nth-child(1) {
-      margin-left: 10px;
-  }
-  
-  #slider {
-      width: 160px;
-      margin: 10px;
-      background-color: #ff0;
-  }
