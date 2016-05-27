@@ -34,7 +34,7 @@ function startAd(){
     tl.add(ptl, 0);
     tl.add(ttl,0);
     tl.add(cptl, 12.2);
-    tl.add(ctl, 9.5);
+    tl.add(ctl, 9.6);
     tl.add(ftl, 9);
     
   tl.totalDuration(15);         
